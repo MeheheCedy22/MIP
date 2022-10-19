@@ -1,1 +1,1 @@
-# MIP
+# MIP - Metódy inžinierskej práce
