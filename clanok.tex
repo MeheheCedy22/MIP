@@ -37,81 +37,82 @@ Počas pandémie COVID-19 a po vydaní seriálu Queen‘s Gambit (Dámsky gambit
 
 
 
+
+
 \section{Úvod}
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti. Test
+Všetky významné šachové podujatia, ktoré sa mali konať v druhej polovici roka 2020, vrátane 44. šachovej olympiády a zápasu o titul majstra sveta, boli zrušené. Množstvo významných národných a medzinárodných šachových súťaží sa však nedávno prvýkrát v histórii hralo online. V priebehu pandémie COVID-19 bol šach jedným z mála športov, ktorému sa podarilo udržať si význam pre verejnosť a dokonca získať popularitu [1], pričom fanúšikovia sledovali šachové turnaje online zo svojich domovov.
 
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-\cite{IM20}Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
-
-
-
-\section{Nejaká časť} \label{nejaka}
-
-Z obr.~\ref{f:rozhod} je všetko jasné. 
-
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
-
-
-
-\section{Iná časť} \label{ina}
-
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-Môže sa zdať, že problém vlastne nejestvuje, ale bolo dokázané, že to tak nie je. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-Niekedy treba uviesť zoznam:
-
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
-
-Ten istý zoznam, len číslovaný:
-
-\begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
-\end{enumerate}
-
-
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
-
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
-
-
-
-\section{Dôležitá časť} \label{dolezita}
+Hoci sa šachová partia dá hrať online takmer rovnakým spôsobom ako offline, existujú určité obavy zo zvýšených možností podvádzania a mnohé softvérové spoločnosti hľadajú riešenie.
+\cite{IM20}
 
 
 
 
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
+
+\section{Pokrok umelej inteligencie v šachu}
+
+Umelá inteligencia prechádza revolúciou, ale zároveň spôsobila revolučné zmeny vo svete. Šach inšpiruje pokrok umelej inteligencie už niekoľko desaťročí. Vývoj umelej inteligencie pre šach pokročil nad rámec hier a zmenil spôsob spolužitia strojov a ľudí. Pokrok umelej inteligencie, zvýraznený strategickými hrami, ovplyvnil mnohé ďalšie oblasti záujmu, ako to už bolo vidieť v posledných rokoch.
+
+Jednou z najznámejších udalostí v boji človeka proti stroju bolo víťazstvo šachového softvéru Deep Blue od IBM v roku 1997 proti slávnemu šachovému majstrovi Garrymu Kasparovovi. Toto víťazstvo však bolo dosiahnuté najmä hrubou silou, keďže program Deep Blue prehľadával milióny pozícií za sekundu, aby mohol hrať šachy s o niečo vyššou silou (program vyhral zápas na 6 partií s Garrym Kasparovom s rozdielom iba 1 bodu), takže asi viac zapôsobilo, že Kasparov s využitím ľudskej intuície dokázal byť stále takmer rovnako silný ako počítač prehľadávajúci milióny pozícií za sekundu. V nasledujúcich rokoch sa výpočtový výkon posunul do takej miery, že ani najlepší šachisti nemali šancu poraziť moderný šachový motor, ako už bolo uvedené.
+
+Významný pokrok v oblastiach súvisiacich s umelou inteligenciou sa dosiahol až o 20 rokov neskôr, keď AlphaZero v roku 2017 vyhral šachový zápas proti Stockfishovi, jednému z najvýkonnejších šachových motorov, aký bol kedy vytvorený, po procese samoučenia trvajúcom len 4 hodiny.
+
+Algoritmus AlphaZero sa nesnažil využiť hrubú silu výpočtového výkonu na identifikáciu čo najväčšieho počtu ťahov na šachovnici. Namiesto toho pomocou posilneného učenia napodobnil proces učenia sa človeka štúdiom pôsobivého počtu šachových partií. Takáto interakcia s prostredím je spôsob, akým sa ľudia učia. Učenie posilňovaním, pri ktorom sa agent snaží maximalizovať odmenu v "komplexnom, neistom prostredí", je len počítačový prístup k interaktívnemu učeniu. Tvorcovia AlphaZero tvrdili, že algoritmus sa dokáže naučiť optimalizovať rozhodnutia v akomkoľvek scenári bez zmien alebo usmerňovania, a to bol skutočne prelom.
+
+Okrem toho bol len pred rokom vydaný algoritmus, ktorý je ešte lepší ako AlphaZero. Dňa 19. novembra 2019 spoločnosť DeepMind uviedla na trh najnovší algoritmus založený na posilňovaní učenia, MuZero. Algoritmus MuZero sa naučil hrať šach lepšie ako AlphaZero aj bez toho, aby mu na začiatku niekto povedal pravidlá hry. Učiaci sa algoritmus MuZero má vo vyrovnávacej pamäti uložených maximálne 1 milión šachových partií, pričom paralelne sa hrá 3 000 partií, ako uviedli Schrittwieser a iní. Bolo to možné vďaka tomu, že spoločnosť DeepMind mala prístup k rozsiahlej cloudovej infraštruktúre spoločnosti Google a používala tisíce čipov s tenzorovými procesorovými jednotkami špeciálne navrhnutými na výpočty neurónových sietí.
+
+Vzhľadom na počet možných pozícií v šachu nie je možné vypočítať každý možný ťah na šachovnici až do konca partie. Prvé stolové databázy, ktoré sa snažili vyriešiť aspoň 5 až 6 partií šachovej koncovky, vyvinul Ken Thompson. Veľké množstvo pamäte, ktoré je na to potrebné, znemožňuje realizáciu tejto myšlienky pre všetky možné šachové pozície aj v súčasnosti.
+
+Preto bolo pozoruhodné, že program AlphaZero sa naučil šachovú partiu za 4 hodiny len s pravidlami hry. Napriek tomu sú v reálnom svete tieto pravidlá málokedy známe. Preto je nový algoritmus MuZero, ktorý dokáže hrať šach na rovnakej úrovni ako AlphaZero bez toho, aby dostal tieto pravidlá, ešte veľkolepejší. Neskôr sa aj open-source motorom, ako napríklad Leela Chess Zero, podarilo dosiahnuť úroveň MuZero a dokonca ju prekonať. Bolo to možné vďaka počítačovému výkonu a vylepšeniam zdrojového kódu, ktoré poskytlo veľké množstvo dobrovoľníkov z celého sveta.
 
 
 
 
-\section{Záver} \label{zaver} % prípadne iný variant názvu
+
+
+\section{Umelá inteligencia používaná na odhaľovanie podvodov na šachových turnajoch}
+
+Dlho sa predpokladalo, že ľudia budú využívať umelú inteligenciu na to, aby sa naučili lepšie hrať šach, ale teraz sa úspešne používa na zistenie, či niektorí súťažiaci hrajú lepšie, ako by mali, vzhľadom na ich históriu hier. Napriek tomu tieto mechanizmy na odhaľovanie podvodov prinášajú niekoľko vlastných kontroverzných otázok.
+
+Ako sa uvádza v Usmerneniach proti podvodom, ktoré v roku 2014 vydala Medzinárodná šachová federácia (FIDE), vo väčšine prípadov stačí ručný detektor kovov, aby sa zabezpečilo, že sa na hraciu plochu neprenášajú elektronické zariadenia, ktoré poskytujú ochranu proti podvodom pri partiách na hracej ploche. V prípade online šachových hier sa však ukázalo, že odhaľovanie podvodov je oveľa ťažšie. Na Majstrovstvá Európy v online šachu, ktoré sa konali v máji 2020, sa zaregistrovalo takmer 4000 hráčov pochádzajúcich z 55 európskych federácií, čo bol rekordný počet účastníkov oficiálnych medzinárodných majstrovstiev v šachu. Celkovo bolo diskvalifikovaných 5 zo 6 hráčov na vrchole skupiny B (rating 1400-1700) majstrovstiev Európy online. Celkovo bolo vo všetkých kategóriách diskvalifikovaných viac ako 80 účastníkov, čo predstavuje približne 2 \% hráčov, pričom väčšina bola zo začiatočníckych alebo mládežníckych kategórií. Početné diskvalifikácie na historicky prvých Majstrovstvách Európy v online šachu poukázali na najväčší problém, ktorému online šach čelí: podvádzanie.
+
+V poslednom čase rôzne softvérové spoločnosti vrátane spoločnosti DeepMind, ktorá vyvinula MuZero, intenzívne pracujú na vylepšení existujúceho softvéru na odhaľovanie podvodov alebo dokonca na vývoji úplne nového softvéru, ktorý bude schopný s takmer 100 \% presnosťou odhadnúť, či hráč podvádza. Napríklad na stránke Chess.com systém na odhaľovanie podvodov využíva milióny šachových partií uložených v databáze na vytvorenie štatistického modelu, ktorý odhaduje nízku pravdepodobnosť, že sa ľudský hráč vyrovná najlepším voľbám motora alebo dokonca prekoná partie niektorých z najlepších šachistov v histórii. Všetky hlásenia o možnom podvádzaní potom dôkladne analyzuje tím odborníkov. Výsledky sa každý mesiac uverejňujú v "Mesačnom prehľade" na webovej stránke.
+
+Väčšina partií odohraných v tomto období bol rýchly šach a šachové partie hrané s dlhším časom na hráča budú ešte väčším problémom, pretože bude viac času na prípadnú zakázanú elektronickú pomoc. FIDE už schválila komplexnú technológiu na odhaľovanie podvodov a modul na sledovanie správania umelej inteligencie pre hry FIDE Online Arény. Tieto online súťaže sa predtým považovali za oddelené od palubných, ale v nedávnej pandantnej situácii sa rozdiel medzi offline a online zmenšil, pričom mnohé oficiálne súťaže sa po prvýkrát v histórii hrajú online.
+
+
+
+
+
+\section{Cheat Detection Issues}
+
+V súvislosti s hraním online a odhaľovaním podvodov je potrebné zvážiť niektoré citlivé otázky. Po prvé, existuje možnosť, že hráč, ktorý nepodvádza, bude klasifikovaný ako podvodník. To by jednoznačne spôsobilo vážne problémy v kariére takéhoto šachistu. Je ťažké urobiť takýto typ analýzy pre šachistu v jeho prvej zaznamenanej partii v živote, ale po odohraní niekoľkých partií v oficiálnom online turnaji môžu tieto programy ľahko identifikovať nepravdepodobné rozdiely medzi normálnymi hrami a hrami, v ktorých sa používajú šachové motory.
+
+Nepravdepodobná je aj snaha použiť šachové motory zakaždým na dokonalú hru; aj to sa dá ľahko odhaliť, pretože hráč by sa umiestnil na prvom mieste a v tomto prípade môže hru vyhodnotiť ľudský expert. Z toho vyplýva, že pre tých, ktorých hra kolíše, pretože sa niekedy spoliehajú na vlastné rozhodnutia a niekedy používajú šachové motory, to nový typ softvéru na odhaľovanie podvodov založený na umelej inteligencii odhalí veľmi dobre, s oveľa väčšou rýchlosťou a presnosťou ako ľudský rozhodca. Všetky prípady podozrenia z podvodu potom pred ich zverejnením individuálne preveruje tím odborníkov v danej oblasti.
+
+Softvér používa osobitný druh algoritmu na odhalenie nepravdepodobného šachového ťahu konkrétneho hráča. Na prichytenie údajného podvodníka softvér vyhodnotí súbor šachových pozícií, ktoré odohral určitý hráč (najlepšie aspoň niekoľko stoviek, ale analýza môže pracovať aj len s niekoľkými partiami), a prevedie ich na osobné hodnotenie výkonnosti. Ten pomáha určiť nepravdepodobný ťah pomocou algoritmu strojového učenia založeného na zhlukovaní a výsledkom je zoznam príznakov naznačujúcich podvádzanie. Samozrejme, keď je v trénovacej množine väčší počet šachových partií odohraných konkrétnym hráčom, program bude mať vyššiu presnosť.
+
+Algoritmy na odhaľovanie podvodov sa musia na špičkových hráčov aplikovať opatrne, pretože kedykoľvek niektorý z nich urobí nový ťah, môže to vyvolať signál o podvode. Napriek tomu môžeme predpokladať, že najlepší hráči na svete by neriskovali svoju povesť kvôli turnaju. Predpokladá sa, že praktizovanie šachu rozvíja určité vnútorné vlastnosti súvisiace s férovosťou, čo je pravdepodobne dôvod, prečo väčšina výkonnostných šachistov nikdy nepodvádza. Rastúca popularita online šachu, najmä v posledných mesiacoch, však viedla k nárastu počtu ľudí úplne mimo šachového sveta, ktorí sa snažia vyhrať veľké online turnaje, a niektorí z týchto ľudí sa pokúsili využiť šachové motory na to, aby hrali lepšie, ako by bežne hrali pri šachovnici.
+
+
+
+
+
+
+
+\section{Záver}
+
+Pre pokrok v oblasti umelej inteligencie je dôležité, že každý prielom v algoritmoch strojového učenia môžeme merať napríklad prostredníctvom šachových motorov, ktoré ich používajú. Inými slovami, možno tvrdiť, že šach je bojiskom umelej inteligencie, pretože je ideálnym spôsobom, ako otestovať súboj medzi ľudskou intuíciou a obrovským výpočtovým výkonom. Vzhľadom na zložitú, ale dobre definovanú povahu strategických hier vo všeobecnosti sa ukázali ako ideálne prostredie na testovanie akéhokoľvek pokroku v oblasti umelej inteligencie.
+
+Súťaženie proti iným hráčom online je dnes väčšou súčasťou šachových súťaží ako kedykoľvek predtým, preto nie je prekvapujúce, že online fair play berú vážnejšie tak šachisti, ktorí považujú podvádzanie za obrovskú prekážku celého zážitku z hry, ako aj spoločnosti, ktoré vytvárajú softvér na odhaľovanie podvodov.
+
+Softvér na odhaľovanie podvodov sa používal pri dôležitých hrách na palubovkách už pred pandémiou COVID-19, ale toto obdobie vynútenej digitalizácie znamenalo, že implementácia softvéru na odhaľovanie podvodov sa uskutočnila vo veľkom meradle, a to aj pri zábavných hrách.
+
+Dostali sme sa k základnej otázke o zábavnej hodnote šachu: Čo chcú ľudia naozaj vidieť - šachové partie hrané medzi šachistami, ktorí sa občas mýlia (to je asi najzaujímavejšia a poučná časť na sledovanie), alebo partie hrané šachovými motormi, ktoré sú krásne, ale bolestne dokonalé? Okrem toho, ako hodnotíme zábavnú hodnotu alebo výchovnú silu šachovej partie? Je dôležité analyzovať, čo je v šachu skutočne krása. V súčasnosti sa vyvíjajú algoritmy na detekciu krásy v šachových diagramoch, ale tejto téme sa treba venovať v niektorom z budúcich článkov.
+
+
+
 
 
 
