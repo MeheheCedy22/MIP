@@ -41,15 +41,24 @@
 
 \section{Úvod}
 
-Väčšina šachových podujatí, ktoré sa mali konať po začiatku pandémie sa prenieslo do online sveta. Napríklad 44. šachová olympiáda sa hrala prvý raz v histórii online. Počas pandémie sa šach stal jedným z mála športov, ktorý sa udržali. Veľké množstvo šachových veľmajstrov začalo s online prenosmi na platforme Twitch. Šach sa tam stal veľmi populárny a s vysielaním začala aj kopa iných hráčov. S touto zmenou však  prišli pochybnosti o zručnostiach niektorých hráčov. 
+Väčšina šachových podujatí, ktoré sa mali konať po začiatku pandémie sa prenieslo do online sveta. Množstvo národných a medzinárodných turnajov sa hralo po prvý raz v histórii online. Počas pandémie sa šach stal jedným z mála športov, ktoré sa udržali. Veľké množstvo šachových veľmajstrov začalo s online prenosmi na platforme Twitch. Šach sa tam stal veľmi populárny a s vysielaním začalo aj veľa iných šachistov. S touto zmenou však  prišli pochybnosti o zručnostiach niektorých hráčov a prvé podozrenia z podvádzania.\cite{IM20}
 
-\cite{IM20}
-
-
-
+%toto treba niekde pridať
 %Keby umelá inteligencia používala iba jednoduchý brute force, aby vyskúšala všetky možné pozície (vrátane ilegálnych ťahov), tak už pri 13 figurkach by sme vyčerpali všetko úložište dostupné na zemi aby sme vôbec tieto dáta uložili, kedže v šachu existuje asi $2^111}$ až $2^123}$ možností čo je viacej ako počet atómov v pozorovatelnom vesmíre.
 
 \section{Ako funguje umelá inteligencia v šachu}
+
+Keď pozorujeme vývoj umelej inteligencie a šachu, musíme si uvedomiť, ako funguje a aké sú jej korene, aby sme lepšie pochopili možný vplyv umelej inteligencie na budúcnosť šachu.
+
+Umelá inteligencia\footnote{ang. AI - Artificial Intelligence} využíva v superpočítačoch techniky, ktoré im pomáhajú vypočítať ideálny ďalší ťah. Pomocou problému hľadania stromu\footnote{ang. Tree Search Problem}, AI zvažuje aktuálne pozície šachových figúrok na šachovnici. Algoritmus následne udáva ďalší súbor inštrukcií na vykonanie.
+
+Iný spôsob, ako sa na to pozrieť, je, že AI a vyššie opísaný strom hry identifikujú všetky možné ťahy, ktoré môžu hráči vykonať. AI má aj funkciu vyhodnocovania, ktorá presne určuje, aký dobrý je daný ťah.
+
+Vďaka tejto hodnotiacej funkcii stromu hier môže AI preskúmať akékoľvek usporiadanie hracej plochy a priradiť správne, legálne ťahy, ktoré znížia šance súpera na výhru.
+
+AI v šachu však nie je všetko príliš jednoduché. Algoritmus herných stromov je zložitý, ale časom už odborníci dokážu preložiť logické riadky na väčšine šachových engine-ov a vytvoriť vylepšené siete.
+
+\section{Umelá inteligencia verzus človek}
 
 \section{Pokrok umelej inteligencie v šachu}
 
@@ -78,9 +87,9 @@ Dlho sa predpokladalo, že ľudia budú využívať umelú inteligenciu na to, a
 
 Ako sa uvádza v Usmerneniach proti podvodom, ktoré v roku 2014 vydala Medzinárodná šachová federácia (FIDE), vo väčšine prípadov stačí ručný detektor kovov, aby sa zabezpečilo, že sa na hraciu plochu neprenášajú elektronické zariadenia, ktoré poskytujú ochranu proti podvodom pri partiách na hracej ploche. V prípade online šachových hier sa však ukázalo, že odhaľovanie podvodov je oveľa ťažšie. Na Majstrovstvá Európy v online šachu, ktoré sa konali v máji 2020, sa zaregistrovalo takmer 4000 hráčov pochádzajúcich z 55 európskych federácií, čo bol rekordný počet účastníkov oficiálnych medzinárodných majstrovstiev v šachu. Celkovo bolo diskvalifikovaných 5 zo 6 hráčov na vrchole skupiny B (rating 1400-1700) majstrovstiev Európy online. Celkovo bolo vo všetkých kategóriách diskvalifikovaných viac ako 80 účastníkov, čo predstavuje približne 2 \% hráčov, pričom väčšina bola zo začiatočníckych alebo mládežníckych kategórií. Početné diskvalifikácie na historicky prvých Majstrovstvách Európy v online šachu poukázali na najväčší problém, ktorému online šach čelí: podvádzanie.
 
-V poslednom čase rôzne softvérové spoločnosti vrátane spoločnosti DeepMind, ktorá vyvinula MuZero, intenzívne pracujú na vylepšení existujúceho softvéru na odhaľovanie podvodov alebo dokonca na vývoji úplne nového softvéru, ktorý bude schopný s takmer 100 \% presnosťou odhadnúť, či hráč podvádza. Napríklad na stránke Chess.com systém na odhaľovanie podvodov využíva milióny šachových partií uložených v databáze na vytvorenie štatistického modelu, ktorý odhaduje nízku pravdepodobnosť, že sa ľudský hráč vyrovná najlepším voľbám motora alebo dokonca prekoná partie niektorých z najlepších šachistov v histórii. Všetky hlásenia o možnom podvádzaní potom dôkladne analyzuje tím odborníkov. Výsledky sa každý mesiac uverejňujú v "Mesačnom prehľade" na webovej stránke.
+V poslednom čase rôzne softvérové spoločnosti vrátane spoločnosti DeepMind, ktorá vyvinula MuZero, intenzívne pracujú na vylepšení existujúceho softvéru na odhaľovanie podvodov alebo dokonca na vývoji úplne nového softvéru, ktorý bude schopný s takmer 100 \% presnosťou odhadnúť, či hráč podvádza. Napríklad na stránke Chess.com systém na odhaľovanie podvodov využíva milióny šachových partií uložených v databáze na vytvorenie štatistického modelu, ktorý odhaduje nízku pravdepodobnosť, že sa ľudský hráč vyrovná najlepším voľbám bota alebo dokonca prekoná partie niektorých z najlepších šachistov v histórii. Všetky hlásenia o možnom podvádzaní potom dôkladne analyzuje tím odborníkov. Výsledky sa každý mesiac uverejňujú v "Mesačnom prehľade" na webovej stránke.
 
-Väčšina partií odohraných v tomto období bol rýchly šach a šachové partie hrané s dlhším časom na hráča budú ešte väčším problémom, pretože bude viac času na prípadnú zakázanú elektronickú pomoc. FIDE už schválila komplexnú technológiu na odhaľovanie podvodov a modul na sledovanie správania umelej inteligencie pre hry FIDE Online Arény. Tieto online súťaže sa predtým považovali za oddelené od palubných, ale v nedávnej pandantnej situácii sa rozdiel medzi offline a online zmenšil, pričom mnohé oficiálne súťaže sa po prvýkrát v histórii hrajú online.
+Väčšina partií odohraných v tomto období bol rýchly šach a šachové partie hrané s dlhším časom na hráča budú ešte väčším problémom, pretože bude viac času na prípadnú zakázanú elektronickú pomoc. FIDE už schválila komplexnú technológiu na odhaľovanie podvodov a modul na sledovanie správania umelej inteligencie pre hry FIDE Online Arény. Tieto online súťaže sa predtým považovali za oddelené od palubných, ale v nedávnej pandemickej situácii sa rozdiel medzi offline a online zmenšil, pričom mnohé oficiálne súťaže sa po prvýkrát v histórii hrajú online.
 
 
 
@@ -98,7 +107,7 @@ Algoritmy na odhaľovanie podvodov sa musia na špičkových hráčov aplikovať
 
 
 
-
+\section{Nedávna šachová dráma}
 
 
 
