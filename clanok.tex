@@ -12,6 +12,9 @@
 %\usepackage{pdfpages}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{float}
 
 \usepackage{cite}
 %\usepackage{times}
@@ -85,8 +88,21 @@ Učiaci sa algoritmus MuZero má vo vyrovnávacej pamäti uložených maximálne
 
 Neskôr sa aj open-source enginom, ako napríklad Leela Chess Zero, podarilo dosiahnuť úroveň MuZero a dokonca ju prekonať. Bolo to možné vďaka výpočtovému výkonu a vylepšeniam zdrojového kódu, ktoré poskytlo veľké množstvo dobrovoľníkov z celého sveta.
 
-\section{Počet}
+\section{Počet šachistov s titulom}
 
+\begin{table}[H]
+		\def\arraystretch{1.5}
+		\begin{tabular}{|lccc|}
+			\hline
+			\multicolumn{4}{|c|}{Šachové tituly ("mužské"), November 2021}                                                     \\ \hline
+			\multicolumn{1}{|l|}{Titul}                       & \multicolumn{1}{c|}{Muži}  & \multicolumn{1}{c|}{Ženy} & Spolu \\ \hline
+			\multicolumn{1}{|l|}{Veľmajster (GM)}             & \multicolumn{1}{c|}{1700}  & \multicolumn{1}{c|}{39}   & 1739  \\ \hline
+			\multicolumn{1}{|l|}{Medzinárodný   majster (IM)} & \multicolumn{1}{c|}{3782}  & \multicolumn{1}{c|}{126}  & 3908  \\ \hline
+			\multicolumn{1}{|l|}{Majster FIDE   (FM)}         & \multicolumn{1}{c|}{8321}  & \multicolumn{1}{c|}{41}   & 8362  \\ \hline
+			\multicolumn{1}{|l|}{Kandidátsky   majster (CM)}  & \multicolumn{1}{c|}{1964}  & \multicolumn{1}{c|}{22}   & 1986  \\ \hline
+			\multicolumn{1}{|l|}{Spolu}                       & \multicolumn{1}{c|}{15767} & \multicolumn{1}{c|}{228}  & 15995 \\ \hline
+		\end{tabular}
+\end{table}
 
 \section{Odhaľovanie podvodov na šachových\\
 	 turnajoch pomocou AI}
