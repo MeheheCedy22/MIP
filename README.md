@@ -1,9 +1,9 @@
 # Vplyv umelej inteligencie na šach
 ## Marek Čederle
 
-Slovenská technická univerzita v Bratislave
-Fakulta informatiky a informačných technológií
-xcederlem@stuba.sk
+Slovenská technická univerzita v Bratislave  
+Fakulta informatiky a informačných technológií  
+xcederlem@stuba.sk  
 8. október 2022
 
 ### Abstrakt
