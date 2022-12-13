@@ -15,8 +15,6 @@
 \usepackage[normalem]{ulem}
 \useunder{\uline}{\ul}{}
 \usepackage{float}
-
-\usepackage{cite}
 %\usepackage{times}
 
 \pagestyle{headings}
@@ -57,15 +55,15 @@ Väčšina šachových podujatí, ktoré sa mali konať po začiatku pandémie s
 
 Keď pozorujeme vývoj umelej inteligencie\footnote{ang. AI - Artificial Intelligence} a šachu, musíme si uvedomiť, ako funguje a aké sú jej korene, aby sme lepšie pochopili možný vplyv umelej inteligencie na budúcnosť šachu.
 
-Umelá inteligencia využíva v superpočítačoch techniky, ktoré im pomáhajú vypočítať ideálny ďalší ťah. Pomocou problému hľadania stromu\footnote{ang. Tree Search Problem}, umelá inteligencia zvažuje aktuálne pozície šachových figúrok na šachovnici. Algoritmus následne udáva ďalší súbor inštrukcií na vykonanie.
+Umelá inteligencia využíva v superpočítačoch techniky, ktoré jej pomáhajú vypočítať ideálny ďalší ťah. Pomocou problému hľadania stromu\footnote{ang. Tree Search Problem}, umelá inteligencia zvažuje aktuálne pozície šachových figúrok na šachovnici. Algoritmus následne udáva ďalší súbor inštrukcií na vykonanie.
 
 Ak by umelá inteligencia používala iba jednoduchý brute force, aby vyskúšala všetky možné pozície (vrátane ilegálnych ťahov), tak už pri 13 figúrkach by sme vyčerpali všetko úložište dostupné na zemi aby sme vôbec tieto dáta uložili, kedže v šachu existuje asi $2^{111}$ až $2^{123}$ možností čo je viacej ako počet atómov v pozorovatelnom vesmíre.
 
-Iný spôsob, ako sa na to pozrieť, je, že umelá inteligencia použije vyššie opísaný algoritmus a identifikuje všetky možné ťahy, ktoré môžu hráči vykonať. Umelá inteligencia má aj funkciu vyhodnocovania, ktorá presne určuje, aký dobrý je daný ťah. Týmto spôsobom pôjde iba do určitej hĺbky a nebude skúšať všetky možné kombinácie.
+V dôsledku toho môžeme povedať, že umelá inteligencia použije vyššie opísaný algoritmus a identifikuje všetky možné ťahy, ktoré môžu hráči vykonať. Umelá inteligencia má aj funkciu vyhodnocovania, ktorá presne určuje, aký dobrý je daný ťah. Týmto spôsobom pôjde iba do určitej hĺbky a nebude skúšať všetky možné kombinácie.
 
 Vďaka tejto hodnotiacej funkcii môže umelá inteligencia preskúmať akékoľvek usporiadanie hracej plochy a vylúčiť ilegálne ťahy. Tým pádom sa znížia šance súpera na výhru.
 
-Vytvoriť umelú inteligenciu, ktorá má za úlohu hrať šach však nie je jednoduché. Algoritmus stromov je síce zložitý, ale postupne už odborníci prekladajú logické inštrukcie na väčšinu šachových engine-ov aby vytvorili vylepšené neurónové siete.
+Vytvoriť umelú inteligenciu, ktorá má za úlohu hrať šach však nie je jednoduché. Algoritmus stromov je síce zložitý, ale postupne už odborníci prekladajú logické inštrukcie na väčšinu šachových engine-ov\footnote{počítačový program, ktorý analyzuje šachovú pozíciu a generuje ťah alebo zoznam ťahov, ktoré považuje za najsilnejšie} aby vytvorili vylepšené neurónové siete.
 
 \vspace*{\fill}
 
@@ -88,7 +86,7 @@ Učiaci sa algoritmus MuZero má vo vyrovnávacej pamäti uložených maximálne
 
 Neskôr sa aj open-source enginom, ako napríklad Leela Chess Zero, podarilo dosiahnuť úroveň MuZero a dokonca ju prekonať. Bolo to možné vďaka výpočtovému výkonu a vylepšeniam zdrojového kódu, ktoré poskytlo veľké množstvo dobrovoľníkov z celého sveta.
 
-\section{Počet šachistov s titulom}
+\section{Počet šachistov s titulom versus}
 
 \begin{table}[H]
 		\def\arraystretch{1.5}
@@ -122,13 +120,20 @@ Ak sledujete šachový svet, tak ste museli zachytiť nedávnu šachovú drámu 
 
 \section{Záver}
 
-Lorem ipsum dolor sit amet
+Na záver možno povedať, že vplyv umelej inteligencie na svet šachu bol významný. S rozvojom výkonných počítačových programov a algoritmov sú teraz šachisti schopní analyzovať a vyhodnocovať pozície a variácie na úrovni, ktorá bola predtým nepredstaviteľná. To viedlo k posunu v spôsobe hrania šachu s väčším dôrazom na prípravu a kalkuláciu.
 
+Vzostup AI v šachu však tiež vyvolal diskusiu a polemiku. Niektorí tvrdia, že zvýšené spoliehanie sa na počítače znížilo kreativitu a individualitu šachistov, zatiaľ čo iní veria, že AI priniesla do hry nové výzvy a príležitosti.
 
+Napriek týmto obavám je jasné, že AI mala hlboký vplyv na svet šachu a bude v tom pokračovať aj v budúcnosti. Keďže technológia neustále napreduje, bude zaujímavé sledovať, ako bude AI naďalej formovať spôsob, akým sa hrá šach a ako sa hráči prispôsobia týmto zmenám.
 
+\section{Reakcia na prednášky}
+\subsection{Spoločenské súvislosti}
 
-%---------------------PRIDAT ESTE ASPON DVA ZDROJE A TABULKU A DIAGRAM-----------------------------
-%jeden z nich moze byt aj wikiepdia odkial mám tabulku
+\subsection{Historické súvislosti}
+
+\subsection{Technológia a ľudia}
+
+\subsection{Udržateľnosť a etika}
 
 
 \bibliography{literatura}
